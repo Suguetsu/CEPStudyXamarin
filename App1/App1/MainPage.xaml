@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout  BackgroundColor=" #FFBF00" Padding="50" Spacing="30">  <!-- permite empilhar elementos na tela.-->
+
+
+        <Image  Source="LogoCorreios.png" x:Name="logoImage"/>
+        <Entry Placeholder="Digite o Cep" PlaceholderColor="#FFBFF0" BackgroundColor="#FFFFFF" x:Name="cep"/>
+
+        <Button  Text="Buscar Cep" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="button"/>
+
+        <Frame BackgroundColor="#FFF7A6" Padding="24" CornerRadius="0">
+            <Label Text= " " TextColor="#1D438A" x:Name="resultado" />
+        </Frame>
+        
+    </StackLayout>
+
+</ContentPage>
